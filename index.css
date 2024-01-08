@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+}
+
+.website-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    
+    width: 375px;
+    
+    margin: 0 auto;
+}
+
+.top-img-element-left {
+    width: 127px;
+    padding: 10px 15px 5px;
+}
+
+.top-img-element-right {
+    width: 33px;
+    height: 33px;
+    margin: 25px 25px 5px;
+    border-radius: 50%;
+}
+
+.oldgram-post-header {
+    display: flex;
+    
+}
+
+.middle-content-header-img-element-left{
+    width: 39px;
+    height: 39px;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.post {
+    width: 375px;
+    
+    margin: 0 auto;
+}
+
+.post-information {
+    margin-top: 15px;
+}
+
+.post-information h1, .post-information h2{
+    margin: 0;
+}
+
+.post-information h1 {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.post-information h2 {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.large-img-element {
+    width: 100%;
+}
+
+
+.post-interaction-tools {
+    display: flex;
+    gap: 10px;    
+}
+
+.img-element-small {
+    width: 23px;
+}
+
+.bolded-text {
+    font-weight: 700;
+    font-size: 13px;
+}
+.img-element-small:hover {
+    opacity: 50%;
+}
